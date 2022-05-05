@@ -4,6 +4,7 @@ from logger_base import log
 
 opcion = None
 while opcion !=5:
+    try:
         print('''
         1. Listar usuarios
         2. Agreagar usuarios
@@ -34,5 +35,7 @@ while opcion !=5:
             usuario = Usuario(id_usuario=id_usuario_var)
             usuariosEliminados = UsuarioDAO.eliminar(usuario)
             log.info(f'Usuario eliminado {usuariosEliminados}')
+    except Exception as e:
+        log.error('Hubo un error: {e}')
 else:
     log.info('Salimos de la aplicación...')
