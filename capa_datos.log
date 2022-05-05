@@ -1,0 +1,65 @@
+10:04:27 AM: INFO [menu.py:18] 
+        Id Usuario: 1
+        Username: jperez
+        Password: 123
+        
+10:04:27 AM: INFO [menu.py:18] 
+        Id Usuario: 2
+        Username: kgomez
+
+        Password: 456
+
+        
+10:12:03 AM: ERROR [cursor_del_pool.py:19] Ocurrió una excepcion: (AttributeError("'Usuario' object has no attribute '_nombre'"),) <class 'AttributeError'><traceback object at 0x000001E18C4E8840> 
+10:13:28 AM: INFO [menu.py:24] Usuarios insertados: 1
+10:14:02 AM: INFO [menu.py:18] 
+        Id Usuario: 1
+        Username: jperez
+        Password: 123
+        
+10:14:02 AM: INFO [menu.py:18] 
+        Id Usuario: 2
+        Username: kgomez
+
+        Password: 456
+
+        
+10:14:02 AM: INFO [menu.py:18] 
+        Id Usuario: 3
+        Username: Catalina
+        Password: tetas
+        
+10:20:10 AM: INFO [menu.py:31] Usuarios actualizados 1
+10:20:11 AM: INFO [menu.py:18] 
+        Id Usuario: 1
+        Username: jperez
+        Password: 123
+        
+10:20:11 AM: INFO [menu.py:18] 
+        Id Usuario: 2
+        Username: kgomez
+
+        Password: 456
+
+        
+10:20:11 AM: INFO [menu.py:18] 
+        Id Usuario: 3
+        Username: Emili
+        Password: crush
+        
+10:23:40 AM: ERROR [cursor_del_pool.py:19] Ocurrió una excepcion: (AttributeError("'Usuario' object has no attribute 'usuario_id'"),) <class 'AttributeError'><traceback object at 0x000002391110A880> 
+10:26:18 AM: ERROR [cursor_del_pool.py:19] Ocurrió una excepcion: (SyntaxError('syntax error at or near "DELTE"\nLINE 1: DELTE FROM usuario WHERE id_usuario=3\n        ^\n'),) <class 'psycopg2.errors.SyntaxError'><traceback object at 0x0000026A136D8140> 
+10:27:44 AM: INFO [menu.py:36] Usuario eliminado 1
+10:28:03 AM: INFO [menu.py:18] 
+        Id Usuario: 1
+        Username: jperez
+        Password: 123
+        
+10:28:03 AM: INFO [menu.py:18] 
+        Id Usuario: 2
+        Username: kgomez
+
+        Password: 456
+
+        
+10:28:48 AM: INFO [menu.py:38] Salimos de la aplicación...
